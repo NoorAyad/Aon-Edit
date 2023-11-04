@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.container {
+  width: 400px;
+  margin: 20px auto;
+}
+header.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .content{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header {
+    border-bottom: 1px solid #EEEEEE;
+    height: 70px;
+    
+  }
+.logo{
+font-family: 'Fascinate';
+font-size: 18px;
+font-weight: 900;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #666666;
+}
+span {
+ color:#0000FF;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  width: 130px;
+height: 22px;
+top: 24px;
+left: 912px;
+ 
+}
+
+header ul li {
+  margin-left: 20px; 
+}
+
+h2,h3{
+width: 296px;
+height: 42px;
+top: 136px;
+left: 469px;
+margin-bottom: -15px;
+}
+p {
+  color: #666666;
+  font-size: 12px;
+  margin-top: 1.78px;
+}
+.form {margin-top: 31.7px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px 20px;
+
+}
+
+.input {
+ 
+  border: 2px solid #EEEEEE;
+  border-radius: 8px;
+  flex: 1;
+  height: 28px;
+  width: 300px;
+}
+
+.input:focus {
+  outline: none;
+  padding: 15px;
+
+
+}
+.input::placeholder {
+  padding-left: 10px;
+}
+
+.add {
+  border: none;
+  background-color: #0000FF;
+  color: white;
+ 
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  height: 32px;
+  width: 90px;
+}
+
+.tasks {
+  background-color: #ffffff;
+  margin-top: 20px;
+  
+   
+}
+
+.tasks .task {
+  background-color: #F6F6F6;
+
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid   #F6F6F6;
+}
+
+.tasks .task:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.tasks.task:hover {
+  background-color: #87d1c77a;
+}
+
+.tasks .task.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.tasks .task span {
+  font-size: small;
+ background-color: white;
+  color:#ff0000;
+  border-radius: 6px;
+  border: 1px solid #ff0000;
+  cursor: pointer;
+ padding:4px 4px;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+ 
+}
+a {
+text-decoration: none;
+color: black;
+}
+.Active {
+  color: #0000FF;
+}
+footer p {
+  color: #666666;
+  text-align: center;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 412px) {
+
+}
+
+ 
